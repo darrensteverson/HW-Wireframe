@@ -19,11 +19,11 @@ body {
     width: 940px;
 }
 
-.rightblock {
+/* .rightblock {
     background-color: royalblue;
-    float: right;
-    width: 480px;
-    
+    /* float: right; */
+    /* width: 480px; */
+     */
 }
 .aside {
     background-color: royalblue;
@@ -31,6 +31,7 @@ body {
     text-align: center;
     color: white;
     margin: 10px;
+    width: 480px
 
 }
 .leftblock {
@@ -51,16 +52,19 @@ body {
     margin: 10px;
     padding: 10px;
 }
+
+.row ::after {
+    clear: both;
+}
+
 .footer {
     background-color: cornflowerblue;
-    margin-top: 302px;
+    margin-top: 70px;
     color: white;
     padding: 10px;
     text-align: center;
     width: 940px;
     float: inline-end
 }
-.row ::after {
-clear: both;
-}
+
 
