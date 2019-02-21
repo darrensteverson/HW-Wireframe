@@ -15,35 +15,30 @@ body {
 .nav {
     background-color: lightcyan;
     padding: 10px;
+    float: left;
+    display: block;
     text-align: center;
     width: 940px;
 }
-
-/* .rightblock {
-    background-color: royalblue;
-    /* float: right; */
-    /* width: 480px; */
-     */
-}
 .aside {
-    background-color: royalblue;
+    background-color:peachpuff;
     padding: 10px;
     text-align: center;
     color: white;
     margin: 10px;
-    width: 480px
+    width: 97%;
 
 }
 .leftblock {
     background-color: lightsteelblue;
     float: left;
-    width: 480px;
+    width: 50%;
 }
 .section {
     background-color: azure;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 .article {
     background-color: teal;
@@ -55,16 +50,16 @@ body {
 
 .row ::after {
     clear: both;
+    display: block;
 }
 
 .footer {
     background-color: cornflowerblue;
-    margin-top: 70px;
+    margin-top: 83px;
     color: white;
     padding: 10px;
     text-align: center;
     width: 940px;
     float: inline-end
 }
-
 
