@@ -10,35 +10,41 @@ body {
     background-color: lightgrey;
     text-align: center;
     color: teal;
-    padding: 10px;
+    padding: 1px;
+    transform: translateX(25em);
 }
 .nav {
     background-color: lightcyan;
-    padding: 10px;
+    padding: 1px;
     float: left;
     display: block;
     text-align: center;
-    width: 940px;
+    width: 960px;
+    transform: translateX(25em);
 }
 .aside {
     background-color:peachpuff;
     padding: 10px;
     text-align: center;
     color: white;
-    margin: 10px;
-    width: 97%;
+    /* margin: 10px; */
+    width: 460px;
+    float: right;
+    transform: translateX(25em)
 
 }
 .leftblock {
     background-color: lightsteelblue;
     float: left;
-    width: 50%;
+    width: 460px;
+    transform: translateX(25em)
 }
 .section {
     background-color: azure;
     text-align: center;
-    padding: 10px;
-    margin: 20px;
+    padding: 4px;
+    /* margin: 20px; */
+    
 }
 .article {
     background-color: teal;
@@ -46,20 +52,22 @@ body {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    
 }
 
 .row ::after {
     clear: both;
-    display: block;
 }
 
 .footer {
     background-color: cornflowerblue;
-    margin-top: 83px;
+    /* margin-top: -1px; */
     color: white;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
-    width: 940px;
-    float: inline-end
+    width: 960px;
+    float: right;
+    transform: translateX(25em)
+    
 }
 
